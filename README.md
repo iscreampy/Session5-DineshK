@@ -1,4 +1,4 @@
-# EPAi - Session 6
+# EPAi - Session 5
 ## Problem Description
 
 * Write a single expression that includes lambda, zip and map functions to select create 52 cards in a deck - 50 pts
