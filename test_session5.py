@@ -5,8 +5,8 @@ import inspect
 import os.path
 import re
 import pytest
-import session6
-from session6 import *
+import session5
+from session5 import *
 
 README_CONTENT_CHECK_FOR = [
     'poker',
