@@ -68,7 +68,7 @@ def test_fourspace():
     Test 5: Returns pass if used four spaces for each level of syntactically \
     significant indenting.
     '''
-    list_of_files = [game_modes, game_rules, session6]
+    list_of_files = [game_modes, game_rules, session5]
     for file_elm in list_of_files:
         lines = inspect.getsource(file_elm)
         spaces = re.findall('\n +.', lines)
@@ -792,21 +792,21 @@ def test_lambda():
     """
     Test 72: Check if lambda function is used
     """
-    lines = inspect.getsource(session6)
+    lines = inspect.getsource(session5)
     assert re.search('lambda', lines), "lambda function not used!"
 
 def test_map():
     """
     Test 73: Check if map function is used
     """
-    lines = inspect.getsource(session6)
+    lines = inspect.getsource(session5)
     assert re.search('map', lines), "map function not used!"
 
 def test_zip():
     """
     Test 74: Check if map function is used
     """
-    lines = inspect.getsource(session6)
+    lines = inspect.getsource(session5)
     assert re.search('zip', lines), "zip function not used!"
     
 def test_deck():
